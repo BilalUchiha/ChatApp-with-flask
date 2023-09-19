@@ -1,0 +1,180 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the heading */
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for labels and inputs */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the join section */
+  .join {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .join input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Style for buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style for the error message */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    color: #ff6347;
+  }
+  
+.message-box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: stretch;
+}
+.messages {
+    overflow: scroll;
+    flex:1;
+    width: 100%;
+
+}
+.inputs {
+    padding: 10px;
+    display: flex;
+}
+h3 {
+    text-align: center;
+}
+#message{
+    flex: 1;
+}
+.text {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.muted {
+    font-size: 10px;
+    color: darkgray;
+}/* Style for the message box */
+.message-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the chat room title */
+  .message-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for the messages container */
+  .messages {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  /* Style for individual messages */
+  .text {
+    margin-bottom: 10px;
+  }
+  
+  .text strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .text .muted {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  /* Style for the input and send button */
+  .inputs {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .inputs input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .inputs button[name="send"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -16px;
+  }
+  
+  .inputs button[name="send"]:hover {
+    background-color: #0056b3;
+  }
+  
